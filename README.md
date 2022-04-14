@@ -1,2 +1,9 @@
-# Twitter-Internal-Migration
-Using Twitter to track internal migration before and during the COVID-19 pandemic in the UK
+# Twitter Internal Migration
+
+This is a code and data repository for the paper ***Using Twitter to track internal migration before and during the COVID-19 pandemic in the UK*** by Yikang Wang, Chen Zhong and Carmen Cabrera-Arnau.
+
+The COVID-19 pandemic has greatly impacted migration patterns. Understanding the consequences of this impact requires the implementation of economical and effective monitoring tools. Here, we propose a privacy-preserving framework for monitoring migration at national and local authority scales, by geocoding and estimating home location using Twitter data. We demonstrate this approach by analysing data corresponding to the UK, from January 2019 to December 2021. Our findings point to complex social processes unfolding differently over space and time, likely driven by variations in policy adherence, vaccine relaxation, and regional interventions. In particular, the pandemic and lockdown policies significantly reduced the rate of migration, but the mass vaccination soon mitigated the impact. Furthermore, people moved out of large cities to the nearby countryside at the peak of the pandemic in 2020, and most had not returned by the end of 2021, although large cities recovered more quickly in 2021 than other regions. Our results are consistent with the official migration flow data released by the Office for National Statistics, showing that despite the biases present in Twitter data, it is highly valuable for trend analysis. 
+
+The `internal_migration_uk.csv` is the LAD-scale UK internal migration Origin-Destination (OD) data between each of two consecutive months from January 2019 to December 2021. 
+
+The Jupyter notebook `internal_migration.ipynb` contains the code segments used to generate estimates of internal migrations from Twitter data. Note that the raw Twitter data is not publicly accessible due to restrictions in the [Twitter terms of service](https://twitter.com/en/tos) and the [Twitter developer policy](https://developer.twitter.com/en/developer-terms/agreement-and-policy.html).
